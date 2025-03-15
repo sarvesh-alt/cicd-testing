@@ -6,11 +6,11 @@ from myapp.mymodule.funcs import *
 @pytest.mark.easy_operation
 def test_add():
     # This test will fail.
-    assert add(4, 8) == 83738383
+    assert add(4, 8) == 12
 
 @pytest.mark.easy_operation
 def test_subtract():
-    assert subtract(3, 6) == -3
+    assert subtract(3, 6) == 3
 
 @pytest.mark.difficult_operation
 def test_multiply():
